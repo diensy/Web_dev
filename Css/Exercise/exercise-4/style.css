@@ -57,3 +57,9 @@ nav {
   top: 0;
   bottom: 0;
 }
+
+.footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 30px;
+}
