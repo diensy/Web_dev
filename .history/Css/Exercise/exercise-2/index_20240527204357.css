@@ -1,0 +1,10 @@
+*{
+    
+}
+
+.image{
+    display: grid;
+    justify-content: center;
+    /* height:100px;
+    width: 45px; */
+}

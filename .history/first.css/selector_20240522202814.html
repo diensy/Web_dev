@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selector</title>
+    <style>
+      /* Element Selctor */
+      div {
+        background-color: red;
+      }
+      /* CLass Selector */
+      .div {
+        background-color: green;
+      }
+      /* Id selector */
+      #blue {
+        background-color: blue;
+      }
+      /* Child selector */
+      span > p {
+        background-color: aqua;
+      }
+      /* Descendant selector */
+      div p {
+        background-color: blueviolet;
+      }
+      /* universal selector */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* pseudo Selector */
+      a:visited {
+        color: black;
+      }
+      a:active {
+        background-color: red;
+      }
+      a:hover {
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <div>I am a Element Selector</div>
+    <div class="div">This is class Selector</div>
+    <div id="blue">This is Id selector</div>
+    <span><p>This is child selector</p></span>
+    <div>
+      <article>
+        <p>This is the descendant selector</p>
+      </article>
+    </div>
+      <div>
+        This is a bo
+      </div>
+    <a href="https://www.google.com">google</a>
+  </body>
+</html>

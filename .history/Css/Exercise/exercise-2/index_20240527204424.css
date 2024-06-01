@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+    display: grid;
+    justify-content: center;
+    border: 1px solid black;
+    /* height:100px;
+    width: 45px; */
+}

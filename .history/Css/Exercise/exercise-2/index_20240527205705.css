@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.card{
+    border: 2px solid black;
+    
+}
+.image{
+  display: grid;
+  justify-content: center;
+  margin-top: 5px;
+}
+.image img{
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 250px;
+  width: 250px;
+}

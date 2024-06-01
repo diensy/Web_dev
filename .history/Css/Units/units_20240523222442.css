@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  border: 2px solid black;
+  box-sizing: border-box;
+  /* width: 1280px; */
+  width: 100vw;
+  background-color: crimson;
+  margin: auto;
+}
+#para {
+  color: white;
+  background-color: blueviolet;
+  border: 2px solid black;
+  box-sizing: border-box;
+  margin: 23px auto;
+  height: 80vh;
+  width: 80vw;
+}

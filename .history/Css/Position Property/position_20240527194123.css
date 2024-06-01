@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.parent{
+  
+}
+.box {
+  border: 2px solid black;
+  height: 133px;
+  width: 80vw;
+  padding: 3px;
+  margin: 3px;
+}
+.box1 {
+  background-color: aquamarine;
+  position: absolute;
+}
+.box2 {
+  background-color: blueviolet;
+  position: relative;
+  top: 34px;
+  left: 56px;
+}
+.box3 {
+  background-color: pink;
+}
+.box4 {
+  background-color: gold;
+}

@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.image{
+  /* justify-content: center; */
+
+}
+.image img{
+  display: grid;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 250px;
+  width: 250px;
+}

@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: grid;
+  justify-content: center;
+  margin: 10px 225px 18px 343px;
+}
+.image {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.image img {
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  height: 315px;
+  width: 399px;
+}
+.button span {
+  border: 1px solid rgba(107, 94, 94, 0.306);
+  color: rgba(0, 0, 0, 0.694);
+  border-radius: 40px;
+  padding: 0 10px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.content {
+  height: 100%;
+  width: 40vw;
+}
+.content h1{
+    margin-bottom :15px
+}
+.content span {
+  color: rgb(9 153 244);
+  border: 1px;
+  border-radius: 10px;
+  background-color: rgba(0, 217, 255, 0.331);
+  padding:  5px 12px ;
+}
