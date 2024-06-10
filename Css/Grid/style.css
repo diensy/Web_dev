@@ -1,0 +1,28 @@
+.container {
+  border: 2px solid green;
+  display: grid;
+  grid-template-columns: 120px 100px;
+  grid-template-rows: 100px 100px 100px;
+}
+.item {
+  height: 55px;
+  width: 55px;
+  border: 1px solid black;
+  color: red;
+}
+.item-4 {
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+.container1 {
+  border: 2px solid black;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.items {
+  height: 55px;
+  /* width: 55px; */
+  border: 1px solid blue;
+  background-color: skyblue;
+}

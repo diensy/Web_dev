@@ -1,0 +1,28 @@
+.container {
+  border: 1px solid blue;
+  display: grid;
+  grid-template-areas:
+    "nav nav nav"
+    "slide article about"
+    "Footer Footer Footer";
+}
+.item {
+  border: 1px solid black;
+  height: 55px;
+  /* width: 55px; */
+}
+.item1 {
+  grid-area: nav;
+}
+.item2 {
+  grid-area: slide;
+}
+.item3 {
+  grid-area: article;
+}
+.item4 {
+  grid-area: about;
+}
+.item5 {
+  grid-area: Footer;
+}
