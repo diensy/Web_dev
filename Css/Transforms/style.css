@@ -1,0 +1,15 @@
+.container {
+  height: 80vh;
+  width: 100vw;
+  border: 2px solid black;
+}
+.box {
+  height: 55px;
+  width: 55px;
+  border: 3px solid purple;
+  background-color: beige;
+  transform: rotate(0.5turn);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
