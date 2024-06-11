@@ -1,0 +1,32 @@
+.container {
+  height: 80vh;
+  width: 60vw;
+  background-color: blue;
+  position: relative;
+}
+.box {
+  height: 45px;
+  width: 45px;
+  background-color: red;
+  border-radius: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: Ballx 3s linear infinite, Bally 1s ease-out alternate infinite;
+}
+@keyframes Ballx {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+@keyframes Bally {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 100%;
+  }
+}
