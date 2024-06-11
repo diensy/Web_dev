@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.logo img {
+  width: 60%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.right ul {
+  display: flex;
+  gap: 24px;
+}
+.right ul li {
+  list-style: none;
+  font-weight: 300;
+  font-size: medium;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 80px;
+}
+.first img {
+  margin-left: 34px;
+}
+.bold {
+  font-weight: 900;
+}
+
+.first span {
+  font-size: 45px;
+}
+.text {
+  font-size: 23px;
+  font-weight: 300;
+}
+.text span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 300;
+}
+.btn {
+  background-color: #31a8dd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  font-weight: 700;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.flex h3 {
+  font-size: 27px;
+  font-weight: 300;
+}
+.flex h6 {
+  font-size: 15px;
+  font-weight: 200;
+}
+.flex img {
+  margin-left: 100px;
+  height: 65px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  width: 73vw;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+button:hover {
+  opacity: 0.3s;
+  background-color: rgba(135, 255, 122, 0.925);
+  transition: hover 0.3s ease-in-out;
+}
+button {
+  background-color: #5cb85c;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 15px ;
+  color: white;
+  font-weight: 600;
+  min-height: 10px;
+  min-width: 20px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  align-self: flex-start;
+}
+.lang-eng {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  height: 130px;
+  width: 23vw;
+  padding: 20px;
+}
+.lang {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-size: 12px;
+  font-weight: 300;
+  padding: 0 39px;
+}
+.lang {
+  font-size: 23px;
+}
