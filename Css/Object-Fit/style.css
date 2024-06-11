@@ -1,0 +1,15 @@
+.container {
+  border: 2px solid black;
+  background-color: #abababf9;
+  background: url("download.jpg");
+  height: 468px;
+  width: 667px;
+  background-size: cover;
+  /* object-fit: cover; */
+  background-repeat: no-repeat;
+}
+img {
+  height: 468px;
+  width: 667px;
+  object-fit: contain;
+}
