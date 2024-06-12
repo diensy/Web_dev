@@ -1,0 +1,5 @@
+img {
+  filter: blur(10px);
+  filter: brightness(120px);
+  filter: drop-shadow(2px 4px 6px black);
+}
