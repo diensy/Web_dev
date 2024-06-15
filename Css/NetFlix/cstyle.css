@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url("images/bg.jpg");
+  height: 90vh;
+  position: relative;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.main .box {
+  height: 90vh;
+  width: 100%;
+  opacity: 0.65;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+nav {
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+}
+nav img {
+  width: 167px;
+  position: relative;
+  z-index: 10;
+  margin-top: 30px;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+button:hover {
+  opacity: 0.9;
+  transition: ease-in 0.5s;
+}
+#sign {
+  background-color: red;
+  color: white;
+
+  border: none;
+  border-radius: 3px;
+  padding: 8px 15px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: ease-in-out 0.2s;
+}
+#lang {
+  background-color: rgba(172, 169, 169, 0.238);
+  color: white;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 8px 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  transition: ease-in-out 0.2s;
+  margin-right: 5px;
+}
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  height: calc(100% - 60px);
+  gap: 10px;
+  padding: 0 30px;
+  text-align: center;
+}
+.heading {
+  font-size: 45px;
+  font-weight: bold;
+}
+.hero #inner {
+  font-size: 30px;
+  font-weight: 300;
+}
+.hero #para {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+input {
+  color: white;
+  background-color: rgba(23, 23, 23, 0.7);
+  padding: 16px 144px 16px 15px;
+  border: 1px solid rgba(128, 128, 128, 0.635);
+  border-radius: 5px;
+  text-align: left;
+  font-size: 13px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 7px;
+}
+#btn {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: 300;
+  transition: ease-in 0.5s;
+}
+.separation {
+  background-color: rgba(128, 128, 128, 0.514);
+  height: 7px;
+  opacity: 0.6;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: white;
+  max-width: 70vw;
+  margin-top: 20px;
+  height: 70vh;
+  gap: 25px;
+}
+#sec_img {
+  position: relative;
+}
+#sec_img video {
+  position: absolute;
+  top: -35px;
+  right: 50px;
+  height: 50vh;
+  width: 22vw;
+}
+#sec_img img {
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+}
+#tv {
+  font-size: 40px;
+  font-weight: 900;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.enjoy p {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px;
+  line-height: 35px;
+}
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: white;
+  max-width: 77vw;
+}
+.mob_img img {
+  width: 35vw;
+  position: relative;
+  top: 30px;
+  margin-right: 20px;
+}
+.in_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(128, 128, 128, 0.7);
+  width: 55%;
+  border-radius: 10px;
+  position: relative;
+  z-index: 10;
+  bottom: 97px;
+  left: 103px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.983);
+  padding: 0 8px;
+  gap: 10px;
+}
+.in_img img {
+  width: 66px;
+  height: 70px;
+  left: 0;
+  position: relative;
+  z-index: 10;
+  top: 5px;
+}
+.in_img span {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 300;
+}
+.sec_txt :first-child {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.sec_txt :nth-child(2) {
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: white;
+  max-width: 70vw;
+  gap: 25px;
+  height: 80vh;
+}
+#third_img {
+  position: relative;
+}
+#third_img video {
+  position: absolute;
+  top: -85px;
+  right: 68px;
+  height: 56vh;
+  width: 19vw;
+}
+#third_img img {
+  width: 30vw;
+  position: relative;
+  z-index: 10;
+}
+.third_txt p {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.third_txt span {
+  font-size: 22px;
+}
+.fourth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: white;
+  max-width: 70vw;
+  gap: 20px;
+  height: 80vh;
+}
+
+.fourth_img img {
+  width: 35vw;
+}
+.fourth_txt p {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.fourth_txt span {
+  font-size: 20px;
+  font-weight: 300;
+}
+.faq h1 {
+  color: white;
+  text-align: center;
+  font-size: 43px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.boxes .box1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(72, 71, 71, 0.533);
+  color: white;
+  padding: 1.4rem;
+  max-width: 70vw;
+  margin: 10px auto;
+  font-size: 24px;
+  cursor: pointer;
+}
+.box1 svg {
+  color: white;
+  font-size: 72px;
+  font-weight: 600;
+}
+.ready p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 35px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.footer {
+  display: grid;
+  color: white;
+  max-width: 80vw;
+  margin: 25px auto;
+}
+.footer p {
+  margin-bottom: 10px;
+}
+.footer a {
+  color: rgba(201, 207, 207, 0.937);
+  font-size: 14px;
+  font-weight: 300;
+}
+.content {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+#lang2 {
+  background-color: rgba(172, 169, 169, 0.238);
+  color: white;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 8px 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 300;
+  transition: ease-in-out 0.2s;
+  margin-right: 5px;
+  margin-left: 115px;
+}
+#netflix{
+  color: rgba(201, 207, 207, 0.937);
+  margin-top: 20px;
+  margin-left: 115px;
+}
