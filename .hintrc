@@ -28,6 +28,20 @@
       {
         "duplicate-id-active": "off"
       }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "definition-list": "off"
+      }
+    ],
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "iframe[allow]"
+        ]
+      }
     ]
   }
 }
